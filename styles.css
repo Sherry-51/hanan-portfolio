@@ -2081,6 +2081,16 @@ img {
   /* Case Studies Grid */
   .case-studies__cards {
     grid-template-columns: 1fr;
+  }
+  
+  .case-card__image {
+    height: auto;
+    background-color: var(--bg-secondary);
+  }
+  
+  .case-card__image img {
+    height: auto;
+    object-fit: contain;
   }  
   /* Form Elements */
   .form-group {
