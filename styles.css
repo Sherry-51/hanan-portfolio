@@ -2164,3 +2164,30 @@ img {
     padding: 0.5rem;
   }
 }
+
+/* Legal Content Styles (Privacy & Terms) */
+.legal-content {
+  font-size: 13px;
+  line-height: 1.6;
+}
+
+.legal-content h1,
+.legal-content h2,
+.legal-content h3,
+.legal-content h4,
+.container--narrow h1 {
+  font-size: 16px !important;
+  margin-top: 1.5rem;
+  margin-bottom: 0.75rem;
+}
+
+.legal-content p,
+.legal-content li {
+  font-size: 13px !important;
+  margin-bottom: 0.75rem;
+}
+
+.legal-content ul {
+  margin-bottom: 1rem;
+  padding-left: 1.5rem;
+}
