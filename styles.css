@@ -1665,6 +1665,30 @@ img {
   .nav {
     background: rgba(255, 255, 255, 0.98);
   }
+
+  /* Disable animations on images/containers in mobile view */
+  .about__image.hidden-element,
+  .about__image.hidden-element--left,
+  .case-study.hidden-element,
+  .case-card.hidden-element,
+  .case-card.hidden-element--fade {
+    opacity: 1 !important;
+    transform: none !important;
+    transition: none !important;
+  }
+
+  /* Reset image transitions and hover effects on mobile */
+  .about__image-wrapper img,
+  .case-study__image img,
+  .case-card__image img {
+    transition: none !important;
+    transform: none !important;
+  }
+  
+  .case-study:hover .case-study__image img,
+  .case-card:hover .case-card__image img {
+    transform: none !important;
+  }
   
   .nav__inner {
     padding: 0.75rem 0;
